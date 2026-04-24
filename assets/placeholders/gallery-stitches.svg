@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t9"><title id="t9">A sampler of traditional Banjara stitches</title>
+  <defs>
+    <linearGradient id="sBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe1c2"/>
+      <stop offset="100%" stop-color="#c8b88f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sBg)"/>
+
+  <!-- Chain stitch row -->
+  <g stroke="#c84b31" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M20 45 Q 30 25 50 45 Q 70 65 90 45 Q 110 25 130 45 Q 150 65 170 45 Q 190 25 210 45 Q 230 65 250 45 Q 270 25 290 45 Q 310 65 330 45 Q 350 25 370 45"/>
+    <path d="M20 45 Q 30 65 50 45 Q 70 25 90 45 Q 110 65 130 45 Q 150 25 170 45 Q 190 65 210 45 Q 230 25 250 45 Q 270 65 290 45 Q 310 25 330 45 Q 350 65 370 45"/>
+  </g>
+  <!-- Satin stitch band -->
+  <g>
+    <g stroke="#1f6e5d" stroke-width="2" stroke-linecap="round">
+      <line x1="20" y1="95" x2="20" y2="115"/><line x1="28" y1="95" x2="28" y2="115"/>
+      <line x1="36" y1="95" x2="36" y2="115"/><line x1="44" y1="95" x2="44" y2="115"/>
+      <line x1="52" y1="95" x2="52" y2="115"/><line x1="60" y1="95" x2="60" y2="115"/>
+      <line x1="68" y1="95" x2="68" y2="115"/><line x1="76" y1="95" x2="76" y2="115"/>
+      <line x1="84" y1="95" x2="84" y2="115"/><line x1="92" y1="95" x2="92" y2="115"/>
+      <line x1="100" y1="95" x2="100" y2="115"/><line x1="108" y1="95" x2="108" y2="115"/>
+      <line x1="116" y1="95" x2="116" y2="115"/><line x1="124" y1="95" x2="124" y2="115"/>
+      <line x1="132" y1="95" x2="132" y2="115"/><line x1="140" y1="95" x2="140" y2="115"/>
+      <line x1="148" y1="95" x2="148" y2="115"/><line x1="156" y1="95" x2="156" y2="115"/>
+      <line x1="164" y1="95" x2="164" y2="115"/><line x1="172" y1="95" x2="172" y2="115"/>
+      <line x1="180" y1="95" x2="180" y2="115"/><line x1="188" y1="95" x2="188" y2="115"/>
+      <line x1="196" y1="95" x2="196" y2="115"/><line x1="204" y1="95" x2="204" y2="115"/>
+      <line x1="212" y1="95" x2="212" y2="115"/><line x1="220" y1="95" x2="220" y2="115"/>
+      <line x1="228" y1="95" x2="228" y2="115"/><line x1="236" y1="95" x2="236" y2="115"/>
+      <line x1="244" y1="95" x2="244" y2="115"/><line x1="252" y1="95" x2="252" y2="115"/>
+      <line x1="260" y1="95" x2="260" y2="115"/><line x1="268" y1="95" x2="268" y2="115"/>
+      <line x1="276" y1="95" x2="276" y2="115"/><line x1="284" y1="95" x2="284" y2="115"/>
+      <line x1="292" y1="95" x2="292" y2="115"/><line x1="300" y1="95" x2="300" y2="115"/>
+      <line x1="308" y1="95" x2="308" y2="115"/><line x1="316" y1="95" x2="316" y2="115"/>
+      <line x1="324" y1="95" x2="324" y2="115"/><line x1="332" y1="95" x2="332" y2="115"/>
+      <line x1="340" y1="95" x2="340" y2="115"/><line x1="348" y1="95" x2="348" y2="115"/>
+      <line x1="356" y1="95" x2="356" y2="115"/><line x1="364" y1="95" x2="364" y2="115"/>
+      <line x1="372" y1="95" x2="372" y2="115"/><line x1="380" y1="95" x2="380" y2="115"/>
+    </g>
+  </g>
+  <!-- Herringbone row -->
+  <g stroke="#8b5a2b" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M20 160 L 40 140 L 60 160 L 80 140 L 100 160 L 120 140 L 140 160 L 160 140 L 180 160 L 200 140 L 220 160 L 240 140 L 260 160 L 280 140 L 300 160 L 320 140 L 340 160 L 360 140 L 380 160"/>
+    <path d="M20 160 L 40 180 L 60 160 L 80 180 L 100 160 L 120 180 L 140 160 L 160 180 L 180 160 L 200 180 L 220 160 L 240 180 L 260 160 L 280 180 L 300 160 L 320 180 L 340 160 L 360 180 L 380 160"/>
+  </g>
+  <!-- Nakra diamonds -->
+  <g fill="#e8a33d" stroke="#1e2d4a" stroke-width="1">
+    <polygon points="30,230 42,218 54,230 42,242"/>
+    <polygon points="80,230 92,218 104,230 92,242"/>
+    <polygon points="130,230 142,218 154,230 142,242"/>
+    <polygon points="180,230 192,218 204,230 192,242"/>
+    <polygon points="230,230 242,218 254,230 242,242"/>
+    <polygon points="280,230 292,218 304,230 292,242"/>
+    <polygon points="330,230 342,218 354,230 342,242"/>
+  </g>
+  <!-- Running stitch -->
+  <g stroke="#c84b31" stroke-width="2" stroke-dasharray="8 6" stroke-linecap="round" fill="none">
+    <path d="M20 275 L 380 275"/>
+  </g>
+</svg>

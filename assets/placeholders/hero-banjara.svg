@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">A Banjara dancer in traditional ghagra-odhni with mirror-work</title>
+  <desc id="hero-desc">Stylized hand-drawn silhouette of a woman from the Banjara community wearing a full pleated ghagra skirt with embroidered bands, a long flowing odhni veil, stacked bangles, and a coin necklace. A large shisha-mirror sun rises behind her and a running-stitch border frames the whole scene.</desc>
+
+  <defs>
+    <!-- Warm indigo background -->
+    <radialGradient id="bgGrad" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#2e4373"/>
+      <stop offset="55%" stop-color="#1e2d4a"/>
+      <stop offset="100%" stop-color="#131c30"/>
+    </radialGradient>
+
+    <!-- Sun / moon shisha -->
+    <radialGradient id="sunGrad" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#fff8e7"/>
+      <stop offset="35%" stop-color="#f4c573"/>
+      <stop offset="85%" stop-color="#e8a33d"/>
+      <stop offset="100%" stop-color="#c84b31"/>
+    </radialGradient>
+
+    <linearGradient id="ghagraGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c84b31"/>
+      <stop offset="100%" stop-color="#8a2c1a"/>
+    </linearGradient>
+
+    <linearGradient id="odhniGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8a33d"/>
+      <stop offset="100%" stop-color="#b8731f"/>
+    </linearGradient>
+
+    <!-- Repeating stitch for bands -->
+    <pattern id="diamondBand" width="24" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 5 L6 0 L12 5 L6 10 Z M12 5 L18 0 L24 5 L18 10 Z" fill="#fff8e7" opacity="0.85"/>
+    </pattern>
+    <pattern id="stitchBand" width="14" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 5 L14 5" stroke="#fff8e7" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.9"/>
+    </pattern>
+    <pattern id="zigzagBand" width="20" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 8 L5 2 L10 8 L15 2 L20 8" stroke="#fff8e7" stroke-width="1.5" fill="none" opacity="0.9"/>
+    </pattern>
+
+    <pattern id="runningStitchH" width="14" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 3 L8 3" stroke="#e8a33d" stroke-width="1.2" stroke-linecap="round"/>
+    </pattern>
+
+    <!-- Shisha mirror dot -->
+    <radialGradient id="mirrorDot" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f4c573"/>
+      <stop offset="100%" stop-color="#c84b31"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="520" height="560" fill="url(#bgGrad)"/>
+
+  <!-- Decorative frame border -->
+  <rect x="14" y="14" width="492" height="532" rx="4"
+        fill="none" stroke="#e8a33d" stroke-width="1" opacity="0.55"/>
+  <rect x="22" y="22" width="476" height="516" rx="2"
+        fill="none" stroke="#e8a33d" stroke-width="1" stroke-dasharray="4 5" opacity="0.45"/>
+
+  <!-- Corner shisha mirrors -->
+  <g>
+    <circle cx="36" cy="36" r="8" fill="url(#mirrorDot)" stroke="#e8a33d" stroke-width="0.6"/>
+    <circle cx="484" cy="36" r="8" fill="url(#mirrorDot)" stroke="#e8a33d" stroke-width="0.6"/>
+    <circle cx="36" cy="524" r="8" fill="url(#mirrorDot)" stroke="#e8a33d" stroke-width="0.6"/>
+    <circle cx="484" cy="524" r="8" fill="url(#mirrorDot)" stroke="#e8a33d" stroke-width="0.6"/>
+  </g>
+
+  <!-- Sun / celestial disc behind figure -->
+  <g>
+    <circle cx="260" cy="190" r="130" fill="url(#sunGrad)" opacity="0.85"/>
+    <circle cx="260" cy="190" r="130" fill="none" stroke="#fff8e7" stroke-width="1.2" opacity="0.6"/>
+    <circle cx="260" cy="190" r="118" fill="none" stroke="#1e2d4a" stroke-width="1" stroke-dasharray="2 4" opacity="0.55"/>
+    <circle cx="260" cy="190" r="106" fill="none" stroke="#fff8e7" stroke-width="0.8" opacity="0.5"/>
+    <!-- Rays -->
+    <g stroke="#e8a33d" stroke-width="1.2" stroke-linecap="round" opacity="0.7">
+      <line x1="260" y1="40" x2="260" y2="58"/>
+      <line x1="260" y1="322" x2="260" y2="340"/>
+      <line x1="110" y1="190" x2="128" y2="190"/>
+      <line x1="392" y1="190" x2="410" y2="190"/>
+      <line x1="154" y1="84" x2="166" y2="96"/>
+      <line x1="366" y1="84" x2="354" y2="96"/>
+      <line x1="154" y1="296" x2="166" y2="284"/>
+      <line x1="366" y1="296" x2="354" y2="284"/>
+    </g>
+  </g>
+
+  <!-- Figure: odhni (veil) flowing -->
+  <g>
+    <path d="M172 130 Q 190 80 260 80 Q 330 80 348 130
+             Q 362 160 372 210 Q 380 270 360 340
+             Q 380 320 396 290 Q 402 268 398 230
+             Q 392 190 376 164 L 370 150
+             Q 360 134 360 122 Q 368 108 380 102
+             L 388 112 Q 392 126 386 138
+             L 380 148 Q 374 144 372 138
+             Z"
+          fill="url(#odhniGrad)" opacity="0.95"/>
+    <!-- Running stitch along odhni edge -->
+    <path d="M172 130 Q 190 80 260 80 Q 330 80 348 130 Q 362 160 372 210 Q 380 270 360 340"
+          fill="none" stroke="#fff8e7" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.85"/>
+    <!-- Shisha dots on odhni -->
+    <g fill="url(#mirrorDot)">
+      <circle cx="205" cy="110" r="4.5"/>
+      <circle cx="245" cy="95" r="4"/>
+      <circle cx="285" cy="95" r="4"/>
+      <circle cx="325" cy="110" r="4.5"/>
+      <circle cx="350" cy="150" r="4"/>
+      <circle cx="365" cy="195" r="4"/>
+      <circle cx="372" cy="250" r="4"/>
+    </g>
+  </g>
+
+  <!-- Face / head -->
+  <g>
+    <!-- neck -->
+    <rect x="250" y="172" width="20" height="30" rx="4" fill="#8b5a2b"/>
+    <!-- face -->
+    <ellipse cx="260" cy="158" rx="30" ry="36" fill="#b97e4a"/>
+    <!-- hair edge -->
+    <path d="M232 142 Q 250 116 260 116 Q 276 116 288 142" fill="#2a1a18"/>
+    <!-- eyes (simple almond) -->
+    <g fill="#1e2d4a">
+      <ellipse cx="250" cy="162" rx="3" ry="2"/>
+      <ellipse cx="270" cy="162" rx="3" ry="2"/>
+    </g>
+    <!-- bindi -->
+    <circle cx="260" cy="147" r="2.8" fill="#c84b31"/>
+    <!-- nose ring -->
+    <circle cx="257" cy="175" r="3.2" fill="none" stroke="#e8a33d" stroke-width="1.5"/>
+    <circle cx="257" cy="175" r="0.8" fill="#e8a33d"/>
+    <!-- lips -->
+    <path d="M254 180 Q 260 184 266 180" stroke="#8a2c1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- earrings dangling -->
+    <circle cx="232" cy="168" r="3" fill="#e8a33d"/>
+    <circle cx="232" cy="178" r="2" fill="#c84b31"/>
+    <circle cx="288" cy="168" r="3" fill="#e8a33d"/>
+    <circle cx="288" cy="178" r="2" fill="#c84b31"/>
+  </g>
+
+  <!-- Coin necklace / bib ornament -->
+  <g>
+    <path d="M222 204 Q 260 228 298 204 L 298 220 Q 260 250 222 220 Z"
+          fill="#e8a33d" stroke="#c84b31" stroke-width="1"/>
+    <g fill="#fff8e7" opacity="0.85">
+      <circle cx="232" cy="214" r="2"/>
+      <circle cx="244" cy="220" r="2"/>
+      <circle cx="256" cy="224" r="2"/>
+      <circle cx="268" cy="224" r="2"/>
+      <circle cx="280" cy="220" r="2"/>
+      <circle cx="288" cy="214" r="2"/>
+    </g>
+  </g>
+
+  <!-- Torso / blouse -->
+  <g>
+    <path d="M204 210
+             Q 230 200 260 206 Q 290 200 316 210
+             L 320 260 Q 318 278 308 290 L 212 290
+             Q 202 278 200 260 Z"
+          fill="#1f6e5d"/>
+    <!-- stitched band on blouse -->
+    <rect x="210" y="268" width="100" height="12" fill="url(#zigzagBand)" opacity="0.9"/>
+    <!-- mirror dots on blouse -->
+    <g fill="url(#mirrorDot)">
+      <circle cx="224" cy="232" r="3.4"/>
+      <circle cx="244" cy="224" r="3.4"/>
+      <circle cx="276" cy="224" r="3.4"/>
+      <circle cx="296" cy="232" r="3.4"/>
+    </g>
+  </g>
+
+  <!-- Arms / bangles -->
+  <g>
+    <!-- Left arm raised slightly -->
+    <path d="M204 220 Q 180 240 170 290 Q 166 320 176 340 Q 184 344 188 338 Q 180 316 186 290 Q 196 252 212 236 Z" fill="#b97e4a"/>
+    <!-- Right arm slightly out -->
+    <path d="M316 220 Q 340 242 350 294 Q 352 322 340 342 Q 332 346 328 340 Q 338 318 332 292 Q 322 252 308 236 Z" fill="#b97e4a"/>
+    <!-- Bangles stacked on left -->
+    <g fill="none" stroke="#e8a33d" stroke-width="1.5">
+      <path d="M172 330 Q 180 332 188 330"/>
+      <path d="M171 336 Q 180 338 189 336"/>
+      <path d="M171 342 Q 180 344 189 342"/>
+    </g>
+    <g stroke="#c84b31" stroke-width="1.5" fill="none">
+      <path d="M171 348 Q 180 350 189 348"/>
+      <path d="M172 354 Q 180 356 188 354"/>
+    </g>
+    <!-- Bangles stacked on right -->
+    <g fill="none" stroke="#e8a33d" stroke-width="1.5">
+      <path d="M332 330 Q 340 332 348 330"/>
+      <path d="M331 336 Q 340 338 349 336"/>
+      <path d="M331 342 Q 340 344 349 342"/>
+    </g>
+    <g stroke="#c84b31" stroke-width="1.5" fill="none">
+      <path d="M331 348 Q 340 350 349 348"/>
+      <path d="M332 354 Q 340 356 348 354"/>
+    </g>
+  </g>
+
+  <!-- Ghagra (long pleated skirt) -->
+  <g>
+    <path d="M196 290 L 324 290
+             L 372 500 L 148 500 Z"
+          fill="url(#ghagraGrad)"/>
+
+    <!-- Horizontal embroidery bands -->
+    <rect x="148" y="318" width="224" height="14" fill="url(#diamondBand)"/>
+    <rect x="148" y="340" width="224" height="8" fill="url(#runningStitchH)" opacity="0.7"/>
+
+    <rect x="148" y="362" width="224" height="12" fill="url(#stitchBand)" opacity="0.7"/>
+
+    <rect x="148" y="390" width="224" height="16" fill="url(#zigzagBand)"/>
+
+    <rect x="148" y="420" width="224" height="14" fill="url(#diamondBand)" opacity="0.9"/>
+
+    <!-- Bottom hem band with shisha circles -->
+    <rect x="148" y="468" width="224" height="32" fill="#1f6e5d" opacity="0.9"/>
+    <g fill="url(#mirrorDot)">
+      <circle cx="168" cy="484" r="6"/>
+      <circle cx="200" cy="484" r="6"/>
+      <circle cx="232" cy="484" r="6"/>
+      <circle cx="260" cy="484" r="6"/>
+      <circle cx="288" cy="484" r="6"/>
+      <circle cx="320" cy="484" r="6"/>
+      <circle cx="352" cy="484" r="6"/>
+    </g>
+
+    <!-- Pleat lines -->
+    <g stroke="#6a1f10" stroke-width="0.8" opacity="0.45">
+      <line x1="208" y1="294" x2="175" y2="495"/>
+      <line x1="232" y1="294" x2="220" y2="495"/>
+      <line x1="260" y1="294" x2="260" y2="495"/>
+      <line x1="288" y1="294" x2="300" y2="495"/>
+      <line x1="312" y1="294" x2="345" y2="495"/>
+    </g>
+  </g>
+
+  <!-- Ghungroo (ankle bells) peeking out -->
+  <g>
+    <circle cx="212" cy="510" r="3" fill="#e8a33d"/>
+    <circle cx="222" cy="512" r="3" fill="#e8a33d"/>
+    <circle cx="298" cy="512" r="3" fill="#e8a33d"/>
+    <circle cx="308" cy="510" r="3" fill="#e8a33d"/>
+  </g>
+</svg>

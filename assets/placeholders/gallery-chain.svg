@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t2"><title id="t2">Chain stitch — interlocking embroidered loops across fabric</title>
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f6e5d"/>
+      <stop offset="100%" stop-color="#13382f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#cBg)"/>
+  <!-- Four chain rows -->
+  <g stroke="#fff8e7" stroke-width="3" fill="none" stroke-linecap="round">
+    <g transform="translate(0 70)">
+      <path d="M20 15 Q 30 -5 50 15 Q 70 35 90 15 Q 110 -5 130 15 Q 150 35 170 15 Q 190 -5 210 15 Q 230 35 250 15 Q 270 -5 290 15 Q 310 35 330 15 Q 350 -5 370 15"/>
+      <path d="M20 15 Q 30 35 50 15 Q 70 -5 90 15 Q 110 35 130 15 Q 150 -5 170 15 Q 190 35 210 15 Q 230 -5 250 15 Q 270 35 290 15 Q 310 -5 330 15 Q 350 35 370 15"/>
+    </g>
+  </g>
+  <g stroke="#e8a33d" stroke-width="3" fill="none" stroke-linecap="round">
+    <g transform="translate(0 130)">
+      <path d="M20 15 Q 30 -5 50 15 Q 70 35 90 15 Q 110 -5 130 15 Q 150 35 170 15 Q 190 -5 210 15 Q 230 35 250 15 Q 270 -5 290 15 Q 310 35 330 15 Q 350 -5 370 15"/>
+      <path d="M20 15 Q 30 35 50 15 Q 70 -5 90 15 Q 110 35 130 15 Q 150 -5 170 15 Q 190 35 210 15 Q 230 -5 250 15 Q 270 35 290 15 Q 310 -5 330 15 Q 350 35 370 15"/>
+    </g>
+  </g>
+  <g stroke="#c84b31" stroke-width="3" fill="none" stroke-linecap="round">
+    <g transform="translate(0 190)">
+      <path d="M20 15 Q 30 -5 50 15 Q 70 35 90 15 Q 110 -5 130 15 Q 150 35 170 15 Q 190 -5 210 15 Q 230 35 250 15 Q 270 -5 290 15 Q 310 35 330 15 Q 350 -5 370 15"/>
+      <path d="M20 15 Q 30 35 50 15 Q 70 -5 90 15 Q 110 35 130 15 Q 150 -5 170 15 Q 190 35 210 15 Q 230 -5 250 15 Q 270 35 290 15 Q 310 -5 330 15 Q 350 35 370 15"/>
+    </g>
+  </g>
+  <g stroke="#fff8e7" stroke-width="3" fill="none" stroke-linecap="round">
+    <g transform="translate(0 250)">
+      <path d="M20 15 Q 30 -5 50 15 Q 70 35 90 15 Q 110 -5 130 15 Q 150 35 170 15 Q 190 -5 210 15 Q 230 35 250 15 Q 270 -5 290 15 Q 310 35 330 15 Q 350 -5 370 15"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t4"><title id="t4">Cowry shells — symbol of prosperity stitched onto fabric</title>
+  <defs>
+    <radialGradient id="cwBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#2a3f5f"/>
+      <stop offset="100%" stop-color="#131c30"/>
+    </radialGradient>
+    <linearGradient id="shellG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8e7"/>
+      <stop offset="70%" stop-color="#efe1c2"/>
+      <stop offset="100%" stop-color="#c8b88f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#cwBg)"/>
+  <!-- String -->
+  <g stroke="#8b5a2b" stroke-width="1.2" fill="none">
+    <path d="M20 75 Q 200 65 380 75"/>
+    <path d="M20 150 Q 200 160 380 150"/>
+    <path d="M20 225 Q 200 215 380 225"/>
+  </g>
+  <!-- Cowry shell shape function: ellipse body with slit and teeth -->
+  <g>
+    <g transform="translate(60 75)">
+      <ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/>
+      <path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/>
+      <g stroke="#8b5a2b" stroke-width="0.6">
+        <line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/>
+        <line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/>
+        <line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/>
+        <line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/>
+      </g>
+    </g>
+  </g>
+  <!-- Repeat cowry pattern manually (5 across × 3) -->
+  <g>
+    <g transform="translate(140 75)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+    <g transform="translate(220 75)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+    <g transform="translate(300 75)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+
+    <g transform="translate(60 150)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+    <g transform="translate(140 150)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/></g>
+    <g transform="translate(220 150)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+    <g transform="translate(300 150)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/></g>
+
+    <g transform="translate(60 225)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/></g>
+    <g transform="translate(140 225)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+    <g transform="translate(220 225)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/></g>
+    <g transform="translate(300 225)"><ellipse rx="22" ry="12" fill="url(#shellG)" stroke="#8b5a2b" stroke-width="0.8"/><path d="M-16 0 L 16 0" stroke="#8b5a2b" stroke-width="1"/><g stroke="#8b5a2b" stroke-width="0.6"><line x1="-14" y1="-2" x2="-14" y2="2"/><line x1="-10" y1="-2" x2="-10" y2="2"/><line x1="-6" y1="-2" x2="-6" y2="2"/><line x1="-2" y1="-2" x2="-2" y2="2"/><line x1="2" y1="-2" x2="2" y2="2"/><line x1="6" y1="-2" x2="6" y2="2"/><line x1="10" y1="-2" x2="10" y2="2"/><line x1="14" y1="-2" x2="14" y2="2"/></g></g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t8"><title id="t8">Bold geometry — interlocking triangles and diamonds</title>
+  <defs>
+    <linearGradient id="gmBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8a33d"/>
+      <stop offset="100%" stop-color="#8b5a2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#gmBg)"/>
+  <!-- Triangular mountain rows -->
+  <g>
+    <g fill="#c84b31">
+      <polygon points="0,300 40,220 80,300"/>
+      <polygon points="80,300 120,220 160,300"/>
+      <polygon points="160,300 200,220 240,300"/>
+      <polygon points="240,300 280,220 320,300"/>
+      <polygon points="320,300 360,220 400,300"/>
+    </g>
+    <g fill="#1f6e5d">
+      <polygon points="40,300 80,220 120,300"/>
+      <polygon points="120,300 160,220 200,300"/>
+      <polygon points="200,300 240,220 280,300"/>
+      <polygon points="280,300 320,220 360,300"/>
+    </g>
+    <g fill="#1e2d4a">
+      <polygon points="0,220 40,140 80,220"/>
+      <polygon points="80,220 120,140 160,220"/>
+      <polygon points="160,220 200,140 240,220"/>
+      <polygon points="240,220 280,140 320,220"/>
+      <polygon points="320,220 360,140 400,220"/>
+    </g>
+    <g fill="#c84b31">
+      <polygon points="40,220 80,140 120,220"/>
+      <polygon points="120,220 160,140 200,220"/>
+      <polygon points="200,220 240,140 280,220"/>
+      <polygon points="280,220 320,140 360,220"/>
+    </g>
+  </g>
+  <!-- Top band with diamonds -->
+  <rect x="0" y="0" width="400" height="80" fill="#1e2d4a"/>
+  <g fill="#e8a33d" stroke="#fff8e7" stroke-width="1">
+    <polygon points="40,40 56,24 72,40 56,56"/>
+    <polygon points="104,40 120,24 136,40 120,56"/>
+    <polygon points="168,40 184,24 200,40 184,56"/>
+    <polygon points="232,40 248,24 264,40 248,56"/>
+    <polygon points="296,40 312,24 328,40 312,56"/>
+    <polygon points="360,40 376,24 392,40 376,56"/>
+  </g>
+  <g fill="#c84b31" stroke="#fff8e7" stroke-width="1">
+    <polygon points="8,40 24,24 40,40 24,56"/>
+    <polygon points="72,40 88,24 104,40 88,56"/>
+    <polygon points="136,40 152,24 168,40 152,56"/>
+    <polygon points="200,40 216,24 232,40 216,56"/>
+    <polygon points="264,40 280,24 296,40 280,56"/>
+    <polygon points="328,40 344,24 360,40 344,56"/>
+  </g>
+</svg>

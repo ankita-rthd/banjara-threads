@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t6"><title id="t6">Rangoli motif — Banjara embroidery mirrors the essence of Rangoli</title>
+  <defs>
+    <radialGradient id="rBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a2c2a"/>
+      <stop offset="100%" stop-color="#131c30"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#rBg)"/>
+  <g transform="translate(200 150)">
+    <!-- Outer flower petals -->
+    <g fill="#c84b31" stroke="#fff8e7" stroke-width="1">
+      <g>
+        <ellipse cx="0" cy="-110" rx="14" ry="28"/>
+        <g transform="rotate(45)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+        <g transform="rotate(90)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+        <g transform="rotate(135)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+        <g transform="rotate(180)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+        <g transform="rotate(225)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+        <g transform="rotate(270)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+        <g transform="rotate(315)"><ellipse cx="0" cy="-110" rx="14" ry="28"/></g>
+      </g>
+    </g>
+    <!-- Inner green petals -->
+    <g fill="#1f6e5d" stroke="#fff8e7" stroke-width="0.8">
+      <ellipse cx="0" cy="-62" rx="10" ry="20"/>
+      <g transform="rotate(45)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+      <g transform="rotate(90)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+      <g transform="rotate(135)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+      <g transform="rotate(180)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+      <g transform="rotate(225)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+      <g transform="rotate(270)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+      <g transform="rotate(315)"><ellipse cx="0" cy="-62" rx="10" ry="20"/></g>
+    </g>
+    <!-- Center -->
+    <circle r="26" fill="#e8a33d" stroke="#fff8e7" stroke-width="1.5"/>
+    <circle r="20" fill="#c84b31"/>
+    <circle r="14" fill="#fff8e7"/>
+    <circle r="8" fill="#1e2d4a"/>
+    <circle r="3" fill="#e8a33d"/>
+    <!-- Diamond punctuation -->
+    <g fill="#fff8e7">
+      <rect x="-2" y="-50" width="4" height="4" transform="rotate(0)"/>
+      <rect x="-2" y="-50" width="4" height="4" transform="rotate(45)"/>
+      <rect x="-2" y="-50" width="4" height="4" transform="rotate(90)"/>
+      <rect x="-2" y="-50" width="4" height="4" transform="rotate(135)"/>
+    </g>
+  </g>
+  <!-- Corner dots -->
+  <g fill="#e8a33d" opacity="0.8">
+    <circle cx="40" cy="40" r="3"/>
+    <circle cx="360" cy="40" r="3"/>
+    <circle cx="40" cy="260" r="3"/>
+    <circle cx="360" cy="260" r="3"/>
+  </g>
+</svg>

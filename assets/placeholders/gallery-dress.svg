@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t7"><title id="t7">Traditional dress — ghagra, blouse, and odhni in vibrant palette</title>
+  <defs>
+    <linearGradient id="dBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2d4a"/>
+      <stop offset="100%" stop-color="#131c30"/>
+    </linearGradient>
+    <pattern id="dBand" width="16" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 5 L5 0 L10 5 L5 10 Z" fill="#fff8e7"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#dBg)"/>
+  <!-- Three dress silhouettes -->
+  <g>
+    <!-- Left -->
+    <g transform="translate(90 40)">
+      <!-- odhni -->
+      <path d="M-30 20 Q 0 -20 30 20 L 34 90 Q 0 82 -34 90 Z" fill="#e8a33d"/>
+      <!-- blouse -->
+      <path d="M-26 50 L 26 50 L 28 80 L -28 80 Z" fill="#1f6e5d"/>
+      <!-- ghagra -->
+      <path d="M-28 80 L 28 80 L 50 200 L -50 200 Z" fill="#c84b31"/>
+      <rect x="-46" y="120" width="92" height="8" fill="url(#dBand)"/>
+      <rect x="-48" y="168" width="96" height="12" fill="#1f6e5d"/>
+      <g fill="#fff8e7"><circle cx="-36" cy="174" r="2"/><circle cx="-18" cy="174" r="2"/><circle cx="0" cy="174" r="2"/><circle cx="18" cy="174" r="2"/><circle cx="36" cy="174" r="2"/></g>
+    </g>
+    <!-- Center -->
+    <g transform="translate(200 40)">
+      <path d="M-30 20 Q 0 -20 30 20 L 34 90 Q 0 82 -34 90 Z" fill="#1f6e5d"/>
+      <path d="M-26 50 L 26 50 L 28 80 L -28 80 Z" fill="#c84b31"/>
+      <path d="M-28 80 L 28 80 L 50 200 L -50 200 Z" fill="#e8a33d"/>
+      <rect x="-46" y="120" width="92" height="8" fill="url(#dBand)" opacity="0.85"/>
+      <rect x="-48" y="168" width="96" height="12" fill="#c84b31"/>
+      <g fill="#fff8e7"><circle cx="-36" cy="174" r="2"/><circle cx="-18" cy="174" r="2"/><circle cx="0" cy="174" r="2"/><circle cx="18" cy="174" r="2"/><circle cx="36" cy="174" r="2"/></g>
+    </g>
+    <!-- Right -->
+    <g transform="translate(310 40)">
+      <path d="M-30 20 Q 0 -20 30 20 L 34 90 Q 0 82 -34 90 Z" fill="#c84b31"/>
+      <path d="M-26 50 L 26 50 L 28 80 L -28 80 Z" fill="#e8a33d"/>
+      <path d="M-28 80 L 28 80 L 50 200 L -50 200 Z" fill="#1f6e5d"/>
+      <rect x="-46" y="120" width="92" height="8" fill="url(#dBand)"/>
+      <rect x="-48" y="168" width="96" height="12" fill="#e8a33d"/>
+      <g fill="#1e2d4a"><circle cx="-36" cy="174" r="2"/><circle cx="-18" cy="174" r="2"/><circle cx="0" cy="174" r="2"/><circle cx="18" cy="174" r="2"/><circle cx="36" cy="174" r="2"/></g>
+    </g>
+  </g>
+</svg>

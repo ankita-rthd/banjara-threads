@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Illustrative portrait of a Banjara artisan in a terracotta odhni">
+  <defs>
+    <radialGradient id="a2Bg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#3a2c2a"/><stop offset="100%" stop-color="#131c30"/></radialGradient>
+    <radialGradient id="a2Mir" cx="30%" cy="30%" r="70%"><stop offset="0%" stop-color="#fff8e7"/><stop offset="60%" stop-color="#f4c573"/><stop offset="100%" stop-color="#1f6e5d"/></radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#a2Bg)"/>
+  <path d="M20 200 Q 50 130 100 130 Q 150 130 180 200 Z" fill="#1e2d4a"/>
+  <path d="M40 200 Q 55 90 100 80 Q 145 90 160 200 Z" fill="#c84b31"/>
+  <path d="M40 200 Q 55 90 100 80 Q 145 90 160 200" stroke="#fff8e7" stroke-width="1.2" stroke-dasharray="3 3" fill="none" opacity="0.85"/>
+  <g fill="url(#a2Mir)"><circle cx="60" cy="140" r="3.5"/><circle cx="140" cy="140" r="3.5"/><circle cx="80" cy="115" r="3"/><circle cx="120" cy="115" r="3"/></g>
+  <ellipse cx="100" cy="90" rx="28" ry="32" fill="#8b5a2b"/>
+  <path d="M75 78 Q 100 58 125 78" fill="#1a0f0a"/>
+  <g fill="#1e2d4a"><ellipse cx="90" cy="92" rx="2.5" ry="1.8"/><ellipse cx="110" cy="92" rx="2.5" ry="1.8"/></g>
+  <circle cx="100" cy="80" r="2.4" fill="#e8a33d"/>
+  <circle cx="97" cy="103" r="2.8" fill="none" stroke="#e8a33d" stroke-width="1.2"/>
+  <path d="M94 110 Q 100 114 106 110" stroke="#8a2c1a" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+  <circle cx="72" cy="97" r="2.4" fill="#e8a33d"/>
+  <circle cx="128" cy="97" r="2.4" fill="#e8a33d"/>
+  <path d="M74 130 Q 100 150 126 130" fill="#e8a33d" stroke="#fff8e7" stroke-width="0.8"/>
+</svg>
