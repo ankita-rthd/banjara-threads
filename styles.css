@@ -276,12 +276,15 @@ blockquote {
 
 .nav__brand {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-3);
   text-decoration: none;
   color: var(--mirror);
   font-size: 1.35rem;
+  line-height: 1;
 }
+.nav__brand-name { line-height: 1; }
+.nav__brand-sub { line-height: 1; align-self: center; }
 .nav__brand-name {
   font-family: "Fraunces", "Playfair Display", Georgia, serif;
   font-variation-settings: "SOFT" 60, "opsz" 144, "wght" 800;
