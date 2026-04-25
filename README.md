@@ -2,7 +2,7 @@
 
 A small two-page static website about **Banjara embroidery** — the traditional craft of the semi-nomadic Banjara (Lamani / Lambani) community of Rajasthan. Made as a school project by **Ankita**.
 
-**Live:** https://ankitarathod2108-sudo.github.io/banjara-threads/
+**Live:** https://ankita-rthd.github.io/banjara-threads/
 
 ## What's here
 
