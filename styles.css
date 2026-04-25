@@ -444,13 +444,15 @@ blockquote {
 }
 .hero__inner {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1fr;
   gap: var(--space-7);
   align-items: center;
   width: 100%;
   max-width: 1320px;
   padding: 0 clamp(1.25rem, 4vw, 2.5rem);
 }
+.hero__content { width: 100%; }
+.hero__tagline { max-width: none; }
 .hero__content { position: relative; z-index: 2; }
 .hero__eyebrow {
   font-family: "Tiro Devanagari Hindi", "Cormorant Garamond", serif;
