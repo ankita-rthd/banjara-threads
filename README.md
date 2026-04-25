@@ -1,6 +1,6 @@
 # The Living Threads of Banjara
 
-A small two-page static website about **Banjara embroidery** — the traditional craft of the semi-nomadic Banjara (Lamani / Lambani) community of Rajasthan. Made as a school project by **Ankita**.
+A small two-page static website about **Banjara embroidery** — an independent art form carried by the semi-nomadic Banjara (Lamani / Lambani) community. Made as a school project by **Ankita**.
 
 **Live:** https://ankita-rthd.github.io/banjara-threads/
 
